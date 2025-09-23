@@ -7,4 +7,6 @@ MANIFEST
 .cache/
 *.egg-info/
 htmlcov/
-.pytest_cache
+.pytest_cache# pixi environments
+.pixi/*
+!.pixi/config.toml
