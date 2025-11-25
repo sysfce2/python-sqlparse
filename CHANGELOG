@@ -9,6 +9,7 @@ Bug Fixes
   algorithmic complexity attacks. The new limits (MAX_GROUPING_DEPTH=100,
   MAX_GROUPING_TOKENS=10000) can be adjusted or disabled (by setting to None)
   if needed for legitimate large SQL statements.
+* Remove shebang from cli.py and remove executable flag (pr818).
 
 
 Release 0.5.3 (Dez 10, 2024)
