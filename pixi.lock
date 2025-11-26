@@ -3934,7 +3934,7 @@ packages:
 - pypi: ./
   name: sqlparse
   version: 0.5.4.dev0
-  sha256: 9b208defc46580b92035fc76bfd448a253b5255b733a7865d2463cd0a2a379ab
+  sha256: 110b003a0343a33422c279e622f160af5a8aa6fe79882cc7de91a438c6ad9603
   requires_dist:
   - build ; extra == 'dev'
   - sphinx ; extra == 'doc'
