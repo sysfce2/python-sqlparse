@@ -4,6 +4,9 @@ Development Version
 Enhancements
 
 * Add support for Python 3.14.
+* Add type annotations to top-level API functions and include py.typed marker
+  for PEP 561 compliance, enabling type checking with mypy and other tools
+  (issue756).
 * Add `ATTACH` and `DETACH` to PostgreSQL keywords (pr808).
 * Add `INTERSECT` to close keywords in WHERE clause (pr820).
 * Support `REGEXP BINARY` comparison operator (pr817).
