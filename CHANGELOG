@@ -27,6 +27,7 @@ Bug Fixes
   comments (issue801, pr803 by stropysh).
 * Fix splitting statements with IF EXISTS/IF NOT EXISTS inside BEGIN...END
   blocks (issue812).
+* Fix splitting on semicolons inside BEGIN...END blocks (issue809).
 
 
 Release 0.5.3 (Dez 10, 2024)
