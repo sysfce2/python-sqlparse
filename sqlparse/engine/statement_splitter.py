@@ -121,10 +121,11 @@ class StatementSplitter:
                     self.consume_ws = True
             elif ttype is T.Keyword and value.split()[0] == 'GO':
                 self.consume_ws = True
-            elif (ttype not in (T.Whitespace, T.Comment.Single, T.Comment.Multiline)
+            elif (ttype not in (T.Whitespace, T.Comment.Single,
+                                T.Comment.Multiline)
                   and not (ttype is T.Keyword and value.upper() == 'BEGIN')):
-                # Reset _seen_begin if we see a non-whitespace, non-comment token
-                # but not for BEGIN itself (which just set the flag)
+                # Reset _seen_begin if we see a non-whitespace, non-comment
+                # token but not for BEGIN itself (which just set the flag)
                 self._seen_begin = False
 
         # Yield pending statement (if any)
